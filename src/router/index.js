@@ -21,11 +21,11 @@ const routes = [
     component: Game
   },
   // catchall 404
-  {
-    path: '/:catchAll(.*)',
-    name: 'NotFound',
-    component: StatBrowser
-  }
+  // {
+  //   path: '/:catchAll(.*)',
+  //   name: 'NotFound',
+  //   component: StatBrowser
+  // }
 ]
 
 const router = createRouter({
