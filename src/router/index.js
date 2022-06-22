@@ -21,14 +21,15 @@ const routes = [
     component: Game
   },
   // catchall 404
-  // {
-  //   path: '/:catchAll(.*)',
-  //   name: 'NotFound',
-  //   component: StatBrowser
-  // }
+  {
+    path: '/:catchAll(.*)',
+    name: 'NotFound',
+    component: NotFound
+  }
 ]
 
 const router = createRouter({
+  mode: 'hash',
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
