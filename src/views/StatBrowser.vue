@@ -92,7 +92,6 @@ input {
   font-size: 22px;
   max-width: 200px;
   height: 60px;
-  border: 1px solid darken(white, 30%);
   border-radius: 20px 0px 0px 20px;
 }
 </style>
