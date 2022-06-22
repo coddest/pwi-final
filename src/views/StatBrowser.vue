@@ -90,7 +90,7 @@ input {
   justify-content: center;
   padding: 0 30px;
   font-size: 22px;
-  max-width: 200px;
+  max-width: 160px;
   height: 60px;
   border-radius: 20px 0px 0px 20px;
 }
